@@ -4,57 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ziza Lisboa</title>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
   <body>
     <div id="container">
       <div id="profile">
         <img src="./asset/avatar.jpeg" alt="Erro" />
-        <p>@David</p>
+        <p>@ZizaLisboa</p>
       </div>
 
       <ul>
-        <li>
-          <a href="#">Conheça a historia do salão</a>
+        <li class="active">
+          <a href="#container2">Conheça a historia do salão</a>
         </li>
 
-        <li>
-          <a href="#">Nossos serviços</a>
+        <li class="active">
+          <a href="#container3">Nossos serviços</a>
         </li>
 
-        <li>
-          <a href="https://github.com/davidfreitas3001-star" target="_blank"
-            >Nossos planos</a
+        <li class="active">
+          <a href="#container3">Nossos planos</a
           >
         </li>
 
         <li>
-          <a href="https://rocketseat.com.br/explorer" target="_blank"
+          <a href="https://wa.me/5561999170335" target="_blank"
             >Agende seu horário</a
           >
         </li>
       </ul>
+      
       <div id="social-links">
-        <a href="https://github.com/maykbrito" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
+        <a href="https://www.facebook.com/zizalisboa/photos/" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
         </a>
 
-        <a href="https://instagram.com/maykbrito" target="_blank">
+        <a href="https://www.instagram.com/zizalisboa.beauty?igsh=MWJsZWtnanpzcjJ6Mg==" target="_blank">
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
 
-        <a href="https://youtube.com/maykbrito" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-
-        <a href="https://linkedin.com/in/maykbrito" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>
+        <a href="https://wa.me/5561999170335" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
         </a>
       </div>
 
@@ -64,15 +61,37 @@
       </footer>
     </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
 
-    <script src="script.js"></script>
+    <div id="container2">
+      <h2>História do Salão</h2>
+      <p>
+        Na Ziza Lisboa Beauty, transformamos beleza em autoestima. Com experiência no mercado desde 2015, oferecemos atendimento personalizado e serviços especializados para valorizar a beleza única de cada cliente. Somos especialistas em loiras, cortes femininos, coloração, tratamentos capilares e técnicas modernas que realçam seu estilo com elegância e sofisticação.
+        Atualmente localizada no Riacho Fundo I, Distrito Federal, nossa missão é proporcionar resultados de excelência em um ambiente acolhedor, com atenção aos detalhes e foco na satisfação de cada cliente. Também oferecemos planos exclusivos de cuidados e manutenção para quem deseja estar linda todos os dias, com praticidade e acompanhamento profissional.
+      </p>
+    </div>
+    
+    <div id="container3">
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <li>Cabelos</li>
+        <li>Unhas</li>
+        <li>Extensão de cilios</li>
+        <li>Estetica</li>
+        <li>Massagem</li>
+
+    </div>
+    <div id="container4">
+      <h2>Nossos Planos</h2>
+
+      <div id="plan-card">
+        <a id="basic-plan" class="plan" href="https://wa.me/5561999170335?text=Olá!%20Tenho%20interesse%20no%20Plano%20Glow%20Basic%20(R$199/mês).%20Gostaria%20de%20mais%20informações%20e%20de%20fazer%20minha%20assinatura." target="_blank"></a>
+        <a id="plus-plan" class="plan" href="https://wa.me/5561999170335?text=Olá!%20Tenho%20interesse%20no%20Plano%20Glow%20Plus%20(R$299/mês).%20Gostaria%20de%20mais%20informações%20e%20de%20fazer%20minha%20assinatura." target="_blank"></a>
+        <a id="luxury-plan" class="plan" href="https://wa.me/5561999170335?text=Olá!%20Tenho%20interesse%20no%20Plano%20Glow%20Luxury%20(R$399/mês).%20Gostaria%20de%20mais%20informações%20e%20de%20fazer%20minha%20assinatura." target="_blank"></a>
+      </div>  
+    </div>  
+
+    <a href="#top" class="botao-topo" aria-label="Voltar ao topo">
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
   </body>
 </html>
