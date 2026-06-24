@@ -203,9 +203,15 @@ footer {
 
 #container4 h2 {
   font-family: "Inter", sans-serif;
-  font-size: 50px;
+  font-size: 24px;
   margin-bottom: 100px;
   text-align: center;
+}
+
+@media (min-width: 1080px) {
+  #container4 h2 {
+    font-size: 50px;
+  }
 }
 
 #map-container {
@@ -227,15 +233,16 @@ footer {
 a.botao-topo {
   position: fixed;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  object-position: center;
-  object-fit: cover;
   width: 50px;
   height: 50px;
   bottom: 20px;
   right: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   border-radius: 50%;
 }
 
