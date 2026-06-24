@@ -16,7 +16,7 @@ body * {
   color: white;
 }
 
-#container {
+#home {
   font-family: "Inter", sans-serif;
   width: 100%;
   max-width: 588px;
@@ -29,12 +29,11 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 180px;
   border-radius: 50%;
 }
 
 #profile p {
-  font-weight: 500;
   line-height: 40px;
 }
 
