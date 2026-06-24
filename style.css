@@ -98,44 +98,44 @@ footer {
   font-size: 14px;
 }
 
-#container2 {
+#historia {
   max-width: 980px;
   width: 100%;
   margin: 0 auto 56px;
   padding: 300px 24px;
 }
 
-#container2 h2 {
+#historia h2 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   margin-bottom: 16px;
   text-align: center;
 }
 
-#container2 p {
+#historia p {
   font-size: 16px;
   line-height: 24px;
   text-align: justify;
 }
 
 @media (min-width: 1080px) {
-  #container2 h2 {
+  #historia h2 {
     font-size: 50px;
   }
 
-  #container2 p {
+  #historia p {
     font-size: 19px;
   }
 }
 
-#container3 {
+#planos {
   width: 100%;
   max-width: 1200px;
   margin: 20px auto 56px;
   padding: 100px 10px;
 }
 
-#container3 h2 {
+#planos h2 {
   margin-bottom: 100px;
   font-family: "Inter", sans-serif;
   font-size: 50px;
@@ -173,7 +173,7 @@ footer {
 #luxury-plan  { background-image: url(asset/luxury1.jpeg); }
 
 @media (max-width: 1080px) {
-  #container3 h2 {
+  #planos h2 {
   margin-bottom: 50px;
   font-size: 30px;
   }
@@ -194,14 +194,14 @@ footer {
   #luxury-plan  { background-image: url(asset/luxury.jpeg); }
 }
 
-#container4 {
+#localizacao {
   width: 100%;
   max-width: 1200px;
   margin: 20px auto 56px;
   padding: 100px 10px;
 }
 
-#container4 h2 {
+#localizacao h2 {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   margin-bottom: 100px;
@@ -209,7 +209,7 @@ footer {
 }
 
 @media (min-width: 1080px) {
-  #container4 h2 {
+  #localizacao h2 {
     font-size: 50px;
   }
 }
