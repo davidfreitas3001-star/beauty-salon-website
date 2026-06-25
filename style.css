@@ -10,6 +10,13 @@ html {
 
 body {
   background: url(./asset/Background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-attachment: scroll;
+  }
 }
 
 body * {
