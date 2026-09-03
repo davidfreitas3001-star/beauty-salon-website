@@ -27,11 +27,14 @@ Este foi um dos meus primeiros projetos práticos de desenvolvimento web.
 
 ### 🖥️ Versão Desktop
 
-![Página inicial](screenshots/home.png)
-
+<p align="center">
+  <img src="screenshots/home.png" alt="Página inicial do Ziza Lisboa" width="800">
+</p>
 ### 📱 Versão Mobile
 
-![Versão mobile](screenshots/mobile.png)
+<p align="center">
+  <img src="screenshots/mobile.png" alt="Versão mobile do site" width="300">
+</p>
 
 ## 🌐 Projeto online
 
