@@ -1,27 +1,49 @@
-# 💇 Site para Salão de Beleza
+<h1 align="center">💇 Ziza Lisboa</h1>
+
+<p align="center">
+  Website desenvolvido para o Studio de Estética Ziza Lisboa.
+</p>
+
+<p align="center">
+  <a href="https://zizalisboa.vercel.app/#top">🌐 Acessar projeto</a>
+</p>
+
+---
 
 ## 📖 Sobre o projeto
 
-Website desenvolvido para o salão Ziza Lisboa, com o objetivo de apresentar o estúdio, seus serviços, localização e facilitar o agendamento dos clientes.
+O Ziza Lisboa é um website desenvolvido para apresentar um salão de beleza, suas informações e formas de contato.
 
-Este foi um dos meus primeiros projetos práticos de desenvolvimento web.
+O projeto foi criado pensando em proporcionar uma experiência visual moderna, elegante e responsiva, combinando com a identidade visual do salão.
 
-## 🚀 Tecnologias
+Este projeto foi desenvolvido como uma aplicação prática dos meus conhecimentos em desenvolvimento web.
 
-- HTML
-- CSS
+---
+
+## 🚀 Tecnologias utilizadas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,git,github,vercel" />
+</p>
+
+- HTML5
+- CSS3
 - Git
-- Github
+- GitHub
 - Vercel
+
+---
 
 ## ✨ Funcionalidades
 
-- Página inicial
-- Lista de serviços
-- Informações de contato
-- Localização
-- Responsividade
-- Navegação intuitiva
+- 📱 Layout responsivo
+- 💇 Apresentação do salão
+- 📋 Informações sobre os serviços
+- 📍 Localização
+- 📲 Links para redes sociais
+- 📅 Área para direcionamento de agendamento
+
+---
 
 ## 📷 Preview
 
@@ -38,8 +60,16 @@ Este foi um dos meus primeiros projetos práticos de desenvolvimento web.
 
 ## 🌐 Projeto online
 
-[🔗 Acesse o projeto](https://zizalisboa.vercel.app)
+<p align="center">
+  <a href="https://zizalisboa.vercel.app">
+    🚀 Clique aqui para acessar o projeto
+  </a>
+</p>
+
+---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por David Lisboa
+Desenvolvido por David Lisboa.
+
+[GitHub](https://github.com/davidfreitas3001-star)
